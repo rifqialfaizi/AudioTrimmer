@@ -6,11 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		079163FF2EAD301500193AD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D2CA562EA5E94500F2403B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D2CA5D2EA5E94500F2403B;
+			remoteInfo = AudioTrimmer;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		079163FB2EAD301500193AD7 /* AudioTrimmerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioTrimmerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07D2CA5E2EA5E94500F2403B /* AudioTrimmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioTrimmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		079163FC2EAD301500193AD7 /* AudioTrimmerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AudioTrimmerTests;
+			sourceTree = "<group>";
+		};
 		07D2CA602EA5E94500F2403B /* AudioTrimmer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = AudioTrimmer;
@@ -19,6 +35,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		079163F82EAD301500193AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		07D2CA5B2EA5E94500F2403B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				07D2CA602EA5E94500F2403B /* AudioTrimmer */,
+				079163FC2EAD301500193AD7 /* AudioTrimmerTests */,
 				07D2CA5F2EA5E94500F2403B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				07D2CA5E2EA5E94500F2403B /* AudioTrimmer.app */,
+				079163FB2EAD301500193AD7 /* AudioTrimmerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +73,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		079163FA2EAD301500193AD7 /* AudioTrimmerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079164012EAD301500193AD7 /* Build configuration list for PBXNativeTarget "AudioTrimmerTests" */;
+			buildPhases = (
+				079163F72EAD301500193AD7 /* Sources */,
+				079163F82EAD301500193AD7 /* Frameworks */,
+				079163F92EAD301500193AD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				079164002EAD301500193AD7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				079163FC2EAD301500193AD7 /* AudioTrimmerTests */,
+			);
+			name = AudioTrimmerTests;
+			packageProductDependencies = (
+			);
+			productName = AudioTrimmerTests;
+			productReference = 079163FB2EAD301500193AD7 /* AudioTrimmerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		07D2CA5D2EA5E94500F2403B /* AudioTrimmer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07D2CA692EA5E94700F2403B /* Build configuration list for PBXNativeTarget "AudioTrimmer" */;
@@ -80,6 +128,10 @@
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
+					079163FA2EAD301500193AD7 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 07D2CA5D2EA5E94500F2403B;
+					};
 					07D2CA5D2EA5E94500F2403B = {
 						CreatedOnToolsVersion = 16.4;
 					};
@@ -100,11 +152,19 @@
 			projectRoot = "";
 			targets = (
 				07D2CA5D2EA5E94500F2403B /* AudioTrimmer */,
+				079163FA2EAD301500193AD7 /* AudioTrimmerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		079163F92EAD301500193AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		07D2CA5C2EA5E94500F2403B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +175,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		079163F72EAD301500193AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		07D2CA5A2EA5E94500F2403B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +191,49 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		079164002EAD301500193AD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D2CA5D2EA5E94500F2403B /* AudioTrimmer */;
+			targetProxy = 079163FF2EAD301500193AD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		079164022EAD301500193AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rifqialfaizi.AudioTrimmerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioTrimmer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AudioTrimmer";
+			};
+			name = Debug;
+		};
+		079164032EAD301500193AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rifqialfaizi.AudioTrimmerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioTrimmer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AudioTrimmer";
+			};
+			name = Release;
+		};
 		07D2CA672EA5E94700F2403B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -301,6 +410,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		079164012EAD301500193AD7 /* Build configuration list for PBXNativeTarget "AudioTrimmerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079164022EAD301500193AD7 /* Debug */,
+				079164032EAD301500193AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		07D2CA592EA5E94500F2403B /* Build configuration list for PBXProject "AudioTrimmer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
